@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.hidden
+{
+	display: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+  background-color: #3AAFA9;
+}
+#container
+{
+	width: 960px;
+	padding-left: 15px;
+	padding-right: 10px;
+	margin: 0 auto;
+	background-color: #3AAFA9;
+}
+
+#mainNav
+{
+	margin-left: auto;
+	border-radius: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-top: 40px;
+	padding-left: 100px;
+}
+
+#contactBut
+{
+	border-width: 4px;
+	background-color: #18252a;
+	border-radius: 22px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+}
+
+#contactBut
+{
+	color: #ffffff;
+	transition: all 0.5s;
+  	cursor: pointer;
+}
+
+
+#mainNav li
+{
+	display: inline;
+	font-size: 20px;
+}
+
+#mainNav a
+{
+	color: #FEFFFF;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 400;
+}
+
+#mainNav a:hover
+{
+  color: #18252a;
+}
+
+#logo
+{
+	height: 100px;
+	width: 250px;
+	/*background-color: #f0aeae;*/
+	float: left;
+	padding-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#heroImage
+{
+	width: 960px;
+	height: 280px;
+	/*background-color: #f0aeae;*/
+	padding-top: 50px;
+}
+
+#crazyIcons
+{
+	color: #18252a;
+	font-family: canada-type-gibson, sans-serif;
+}
+
+#crazyPeople
+{
+	color: #18252a;
+	font-family: canada-type-gibson, sans-serif;
+}
+.heroText1
+{
+	color: #ffffff;
+	font-size: 60px;
+	text-align: center;
+	font-family: canada-type-gibson, sans-serif;
+	line-height: 15px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+
+.heroText2
+{
+	color: #ffffff;
+	font-size: 60px;
+	text-align: center;
+	font-family: canada-type-gibson, sans-serif;
+}
+
+.image-wrapper
+{
+	width: 45%
+	display: inline-block;
+}
+
+#promoText
+{
+	text-align: center;
+	padding-top: 100px;
+}
+
+#promoText h1
+{
+	color: #17252A;
+	font-size: 40px;
+	font-family: "Georgia", serif;
+}
+
+/*Icon Work*/
+
+#iconBox1 svg
+{
+	height: 80px;
+	width: 80px;
+	padding-right: 40px;
+}
+
+#iconBox2 svg
+{
+	height: 80px;
+	width: 80px;
+	padding-right: 40px;
+}
+
+#iconBox3 svg
+{
+	height: 80px;
+	width: 80px;
+	padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+#iconContainer
+{
+	padding-left: 40px;
+}
+
+
+#iconBoxRow1
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+
+#iconBoxRow1 p
+{
+	padding-left: 6px;
+	margin-top: 20px;
+	color: #17252A;
+	font-size: 20px;
+}
+
+#iconBoxRow2 p
+{
+	padding-left: 6px;
+	margin-top: 20px;
+	color: #17252A;
+	font-size: 20px;
+}
+
+
+#iconBox1
+{
+	width: 290px;
+	height: 90px;
+	/*background-color: #17252A;*/
+	margin-right: 40px;
+	border-radius: 15px;
+}
+
+
+.firstIcon
+{
+	padding-right: 40px;
+	padding-left: 12px;
+}
+
+#iconBox2
+{
+	width: 290px;
+	height: 200px;
+	/*background-color: #17252A;*/
+	margin-right: 40px;
+	border-radius: 15px;
+}
+
+#iconBox3
+{
+	width: 290px;
+	height: 90px;
+	/*background-color: #17252A;*/
+	border-radius: 15px;
+}
+
+#iconBoxRow2
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+
+
+/*copyed code*/
+#mainFooter
+{
+	height: 125px;
+	width: 960px;
+	background-color: #2B7A78;
+	margin-top: 100px;
+	display: flex;
+  	justify-content: center;
+  	border-radius: 15px;
+}
+
+#logoFooter
+{
+	margin-top: 15px;
+	padding-left: 0px;
+	margin-right: 80px;
+	height: 100px;
+	width: 70px;
+}
+
+#footerNav
+{
+	width: 500px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 80px;
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 40px;
+	margin-right: 0px;
+
+}
+
+#footerNav ul
+{
+	padding: 0px;
+	list-style-type: none;
+}
+
+#footerNav ul li
+{
+	display: inline;
+	margin-right: 25px;
+	font-size: 15px;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 800;
+}
+
+#footerNav ul li a
+{
+	color: #18252a;
+}
+
+#footerNav ul li a:hover
+{
+	color: #FEFFFF;
+}
+
+
+.copyRight
+{
+	height: 25px;
+	display: inline;
+	margin-left: 200px;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 1110px;
+	margin-bottom: 10px;
+}
+
+.copyRight p
+{
+	background-color: #2B7A78;
+	color: #18252a;
+	line-height: 12px;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 800;
+}
