@@ -1,41 +1,58 @@
-//console.log("Java Script Linked Up");
+//tests to make sure the files linked properly
+console.log('fired!');
 
-/*
-(() => {
-	// this is a self invoking anonymous fuction
-	console.log('fired!');
-
-	// these are the elements that you want to refrence on the page (the icons in this case)
-
-	var badge = document.querySelector("img");
-
-	// slects all elements with that class
-	var otherBadges = document.querySelectorAll('.jpgBadge')
-
-
-	// functions are the same in JS as in Python: what do you want to have happen on a click?
-	function logBadgeId()
-		console.log(this.id);
-		debugger;
-	}
+$("#camera_3").hover(function(){
+$(this).animate({
+opacity: 0.25
+});
+},function()
+{
+$(this).animate({
+opacity: 1
+});
+});
 
 
-	// what events are we listening for? clicks? mouseover? and what should happen when we hear one
-	badge.addEvenListener("click", logBadgeId);
+
+//CONSOLE LOG PRINTING
+
+	// this selects the button under the first SVG
+    let iconButton = document.querySelector("button");
+
+    // this selects the inline SVG - I added an ID to it (see above)
+    let cheese = document.querySelector('#cheese');
+
+    // this selects the inline SVG - I added an ID to it (see above)
+    let meat = document.querySelector('#meat_6');
+
+    // this function runs when you click on the button
+    function logIcon() {
+      console.log("log Icon function fired");
+    }
+
+    // this function runs when you click on the inline SVG #1
+    function logCheese() {
+      console.log("log Cheese function fired");
+    }
+
+    // this function runs when you click on the inline SVG #2
+    function logMeat() {
+      console.log("log Meat function fired");
+    }
+
+    // event handling for the button
+    iconButton.addEventListener("click", logIcon);
+
+    // event handling for the inline SVG
+    cheese.addEventListener("click", logCheese)
 
 
-	//debugger;
-
-	otherBadges.forEach(thisbadge => thisbadge.addEvenListener("click", logBadgeId));
-
-})();
-
-console.log("adam");
-var padam = (4)
-var adam = (6)
-console.log(padam + adam);
-*/
+    meat.addEventListener("click", logMeat)
 
 
-TweenMax.to("#photo_4", 2, {left: 10});
+
+
+
+
+
 

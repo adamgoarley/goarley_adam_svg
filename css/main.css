@@ -55,6 +55,8 @@ body
 }
 
 
+
+
 #mainNav li
 {
 	display: inline;
@@ -83,7 +85,6 @@ body
 	float: left;
 	padding-top: 20px;
 	margin-bottom: 20px;
-
 }
 
 #heroImage
@@ -93,6 +94,7 @@ body
 	/*background-color: #f0aeae;*/
 	padding-top: 50px;
 }
+
 
 #crazyIcons
 {
@@ -105,6 +107,32 @@ body
 	color: #18252a;
 	font-family: canada-type-gibson, sans-serif;
 }
+
+@keyframes crazy-icons 
+{
+	0%, 10%  {opacity: 0}
+	25%, 85% {opacity: 1}
+	100%     {opacity: 0}
+}
+
+#heroImage:hover #crazyIcons
+{
+  animation: crazy-icons 7s ease;
+}
+
+#heroImage:hover #crazyPeople
+{
+  animation: crazy-icons 7s ease;
+}
+
+
+
+
+
+
+
+
+
 .heroText1
 {
 	color: #ffffff;
@@ -145,34 +173,42 @@ body
 
 /*Icon Work*/
 
+#but
+{
+	height: 20px;
+	width: 80px;
+	background-color: #2B7A78;
+	border-radius: 12px;
+	margin-left: 142px;
+}
+
 #iconBox1 svg
 {
 	height: 80px;
 	width: 80px;
-	padding-right: 40px;
+	padding-left: 30px;
 }
+
+.icon1 .icon2
+{
+	display: flex;
+	flex-direction: row;
+}
+
 
 #iconBox2 svg
 {
 	height: 80px;
 	width: 80px;
-	padding-right: 40px;
+	padding-left: 30px;
 }
 
 #iconBox3 svg
 {
 	height: 80px;
 	width: 80px;
-	padding-right: 40px;
+	padding-left: 30px;
 }
-
-
-
-
-
-
-
-
 
 #iconContainer
 {
@@ -184,7 +220,7 @@ body
 {
 	display: flex;
 	flex-direction: row;
-	margin-top: 80px;
+	margin-top: 60px;
 }
 
 #iconBoxRow1 p
@@ -192,7 +228,7 @@ body
 	padding-left: 6px;
 	margin-top: 20px;
 	color: #17252A;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 #iconBoxRow2 p
